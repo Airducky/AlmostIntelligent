@@ -11,8 +11,10 @@ Listing of files:
 
 ### To Do's
 __ffnn.hs__
-* Export other activation and cost functions and add initialization options.
-* Make an actual program, do some CSV magic.
+* Make activation functions configurable.
+* Change checkLayers to take the description of the network before
+  weight initialization.
 * Decided not to generalize element types to instances of Floating because
   Haskell's type system is insane. Could be done somewhat easily via
   GHC FlexibleContexts.
+  
