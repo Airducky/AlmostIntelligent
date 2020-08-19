@@ -11,10 +11,8 @@ Listing of files:
 
 ### To Do's
 __ffnn.hs__
-* Make activation functions configurable.
-* Change checkLayers to take the description of the network before
-  weight initialization.
+* Made layers more configurable. Should winit be more flexible?
+  winit could be made into an Either type for fixed vs random initialization.
 * Decided not to generalize element types to instances of Floating because
   Haskell's type system is insane. Could be done somewhat easily via
   GHC FlexibleContexts.
-  
