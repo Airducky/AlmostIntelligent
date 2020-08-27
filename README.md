@@ -7,7 +7,10 @@ my hand at coding them. As a bonus, I'll be practicing my functional programming
 but we'll see how long that lasts.
 
 Listing of files:
-* ffnn.hs First implementation of backpropagation. Depends on hmatrix.
+* FFNN.hs First implementation of backpropagation. Depends on hmatrix,
+  mwc-random, statistics.
+* XorGen.hs Generates 3D XOR datasets for sanity testing. Depends on
+  mwc-random, cassava.
 
 ### To Do's
 __ffnn.hs__
