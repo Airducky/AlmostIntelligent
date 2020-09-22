@@ -14,8 +14,8 @@ Listing of files:
 
 ### To Do's
 __ffnn.hs__
-* Made layers more configurable. Should winit be more flexible?
-  winit could be made into an Either type for fixed vs random initialization.
+* `./Main points.csv` will train on 10000 entries of the generated XOR dataset.
+  Should probably add testing and accuracy reporting at some point.
 * Decided not to generalize element types to instances of Floating because
   Haskell's type system is insane. Could be done somewhat easily via
   GHC FlexibleContexts.
