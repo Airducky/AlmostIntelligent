@@ -14,14 +14,13 @@ Listing of files:
 * LineGen.hs Generates a binary classification dataset based on a region defined
   by two lines. Depends on mwc-random, cassava.
 
-The *Run.hs files compiled with 
-`ghc -package vector -package primitive -package mtl -package split LineRun.hs`.
+The *Run.hs files are compiled with 
+`ghc -package vector -package primitive -package mtl -package split *Run.hs`.
 
 ### To Do's
 __ffnn.hs__
-* Regularization
-* Add `TrainingSpec` to make loss functions, regularization, and
-  hyperparameters configurable and to ease passing values around.
+* Regularization added, do something about static step sizes.
+* Rename accessors to alleviate name shadowing?
 * Decided not to generalize element types to instances of Floating because
   Haskell's type system is insane. Could be done somewhat easily via
   GHC FlexibleContexts.
